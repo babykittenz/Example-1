@@ -32,7 +32,7 @@
 
         $players = new WP_Query(array(
             'post_type' => 'player',
-            'post_status' => 'post_id'
+            'post_status' => 'post_id',
             'posts_per_page' => -1,
         ));
 
