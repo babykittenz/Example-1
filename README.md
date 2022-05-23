@@ -40,9 +40,9 @@ I would prevent this with:
 # QUESTION THREE
 
 ## 1. Write the code that would accomplish this.
-```
+
 Code is present in [question-three.php](https://github.com/babykittenz/Example-1/blob/main/question-three.php)
-```
+
 ## 2. How would you trigger the execution of this code?
 ```
 This operation would only need to occur once to update the old content in the database. Normally I create a plugin that calls this function on activation of the plugin. The plugin can be deleted afterwards to reduce code.
