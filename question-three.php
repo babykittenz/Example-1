@@ -38,15 +38,19 @@
 
        
 
-        foreach($players as $value){
+        foreach ($players as $player){
 
             //getting post id for each player
-            $playerId = new WP_Query($value);
-            while ( $playerId->have_posts() ) : $playerId->the_post();
-                the_ID();
-            endwhile;
+            $playerId = get_post_meta($player, 'player_external_id' , True);
+            $playerURl = get_post_meta($player, 'player_tv_url' , True);
 
-            update_post_meta($post_id, 'player_tv_url', 'http://www.nba-player-tv.com/channel/' . $playerId);
+            //if player URL is not defined then define it
+            if (strlen($playerURL) > 0){
+
+                //updating post meta of player tv url with the new url
+                update_post_meta($player, 'player_tv_url', 'http://www.nba-player-tv.com/channel/' . $playerId);
+
+            }
 
         }
 
