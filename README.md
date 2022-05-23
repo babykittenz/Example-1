@@ -18,7 +18,6 @@ I would also not it is good practice to add all of these things when setting up 
 ```
 
 
-
 # QUESTION TWO
 
 ## 1. What does this code do? 
@@ -35,8 +34,6 @@ http://localhost:10008/wp-admin/admin.php?page=custom-menu
 
 I would prevent this with:  defined( 'ABSPATH' ) || exit;
 ```
-
-
 
 
 # QUESTION THREE

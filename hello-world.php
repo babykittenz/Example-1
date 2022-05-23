@@ -20,9 +20,9 @@
      * 
      * @link https://developer.wordpress.org/reference/functions/load_plugin_textdomain/
      */
-    add_action( 'init', 'millmountain_load_textdomain' );
+    add_action( 'init', 'nba_load_textdomain' );
   
-    function millmountain_load_textdomain() {
+    function nba_load_textdomain() {
         load_plugin_textdomain( 'exampledomain', false, basename( __DIR__ ) . '/languages' );
     }
 
