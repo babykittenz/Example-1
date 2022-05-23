@@ -25,9 +25,11 @@
         load_plugin_textdomain( 'nba', false, basename( __DIR__ ) . '/languages' );
     }
 
+    //hooking into the activation of this file to call back the function nba_update_current_player_url_meta
     register_activation_hook( __FILE__,  'nba_update_current_player_url_meta' );
     // add_action( 'init', 'nba_update_current_player_url_meta' ); I would use this over register activation hook if we were afraid of losing the database for some reason.
 
+    //callback function 
     function nba_update_current_player_url_meta(){
 
         //getting the post id for each custom post type player
