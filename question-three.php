@@ -45,7 +45,7 @@
             $playerURl = get_post_meta($player, 'player_tv_url' , True);
 
             //if player URL is not defined then define it
-            if (strlen($playerURL) > 0){
+            if (strlen($playerURL) == 0){
 
                 //updating post meta of player tv url with the new url
                 update_post_meta($player, 'player_tv_url', 'http://www.nba-player-tv.com/channel/' . $playerId);
