@@ -32,7 +32,8 @@ Only those with admin privileges but there are other ways to get around this wit
 ```   
 http://localhost:10008/wp-admin/admin.php?page=custom-menu
 
-I would prevent this with:  defined( 'ABSPATH' ) || exit;
+I would prevent this with:  
+<?php defined( 'ABSPATH' ) || exit; ?>
 ```
 
 
