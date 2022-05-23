@@ -30,6 +30,7 @@
 
     function nba_update_current_player_url_meta(){
 
+        //getting the post id for each custom post type player
         $players = new WP_Query(array(
             'post_type' => 'player',
             'post_status' => 'post_id',
@@ -37,11 +38,12 @@
         ));
 
        
-
+        // looping through the array of the custom post type player
         foreach ($players as $player){
 
             //getting post id for each player
             $playerId = get_post_meta($player, 'player_external_id' , True);
+            //getting post url
             $playerURl = get_post_meta($player, 'player_tv_url' , True);
 
             //if player URL is not defined then define it
