@@ -9,10 +9,11 @@
 This plugin would hook in Hello World as a title tag at the start of the content. 
 
 I would also not it is good practice to add all of these things when setting up a boilerplate for plugins. 
-    * Added the plugin initiation at the top of the file
-    * Disable direct access to the file
-    * Allow for Translation
-    * Continue with plugin code
+ Markup : * Bullet list
+            * Added the plugin initiation at the top of the file
+            * Disable direct access to the file
+            * Allow for Translation
+            * Continue with plugin code
 
 
 
@@ -32,9 +33,8 @@ Only those with admin privileges but there are other ways to get around this wit
 http://localhost:10008/wp-admin/admin.php?page=custom-menu
 
 I would prevent this with:
-``` 
-<?php defined( 'ABSPATH' ) || exit; ?>
-```
+Markup : `code(<?php defined( 'ABSPATH' ) || exit; ?>)`
+
 
 
 
