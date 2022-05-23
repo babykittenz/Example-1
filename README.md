@@ -41,7 +41,7 @@ I would prevent this with:
 
 ## 1. Write the code that would accomplish this.
 ```
-Code is present in question-three.php
+Code is present in [question-three.php](https://github.com/babykittenz/Example-1/blob/main/question-three.php)
 ```
 ## 2. How would you trigger the execution of this code?
 ```
