@@ -5,7 +5,7 @@
 
 ## 1. Why can’t I see this plugin when viewing https://my-site.com/wp-admin/plugins.php?
 
- There is only one real reason that is preventing the plugin from being seen on the admin side. We need to Add the initial plugin registration in the comment section at the top of hello-world.php 
+ There is only one real reason that is preventing the plugin from being seen on the admin side. We need to Add the initial plugin registration in comments at the top of hello-world.php 
 
 ## 2. If enabled, what would this plugin do?
 
@@ -26,6 +26,7 @@ It is good practice to add all of these things when setting up a boilerplate for
 ## 1. What does this code do? 
 
 This code will add a cog icon and title to the admin menu on the left inside of the admin view. When you click on this admin URL href="admin.php?page=custom-menu" it will take you to the page layed out in the h1 and p tags. More details are outlined inside the code.
+[question-two.php](https://github.com/babykittenz/Example-1/blob/main/question-two.php)
 
 ## 2. Who can/cannot view its effects?
 
