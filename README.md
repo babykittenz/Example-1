@@ -1,7 +1,9 @@
 
 - - - -
-# QUESTION ONE
+# QUESTION ONE 
 - - - -
+
+## 1. Why can’t I see this plugin when viewing https://my-site.com/wp-admin/plugins.php?
 
  There is only one real reason that is preventing the plugin from being seen on the admin side. We need to Add the initial plugin registration in the comment section at the top of hello-world.php 
 
