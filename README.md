@@ -10,11 +10,11 @@
 This plugin would hook in Hello World as a title tag at the start of the content. 
 
 I would also not it is good practice to add all of these things when setting up a boilerplate for plugins. 
-* Additional Plugin Options
-    * Added the plugin initiation at the top of the file
-    * Disable direct access to the file
-    * Allow for Translation
-    * Continue with plugin code
+Additional Plugin Options
+    - Added the plugin initiation at the top of the file
+    - Disable direct access to the file
+    - Allow for Translation
+    - Continue with plugin code
 
 
 
