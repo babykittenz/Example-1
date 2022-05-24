@@ -16,7 +16,6 @@ It is good practice to add all of these things when setting up a boilerplate for
     - Add plugin initiation/registration at the top of the file
     - Disable direct access to the file
     - Allow for Translation
-    - Continue with plugin code
 
 
 
